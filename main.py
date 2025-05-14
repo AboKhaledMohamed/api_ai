@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Load YOLOv8 model
-MODEL_PATH = r"E:\Downloads\New folder (5)\corn.pt"  # Replace with your model path
+MODEL_PATH = r"./corn.pt"  # Replace with your model path
 model = YOLO(MODEL_PATH)
 
 # Class ID to name mapping (update this as per your dataset)
