@@ -1,9 +1,8 @@
---extra-index-url https://download.pytorch.org/whl/cpu
 
-torch==2.4.1+cpu
-torchvision==0.22.0+cpu
 fastapi==0.103.2
 uvicorn[standard]==0.23.2
 ultralytics==8.0.196
 pillow==10.0.1
 python-multipart==0.0.6
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
